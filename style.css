@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700;800;900& display=swap");
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://wavebox.io/knowhow/content/images/2022/05/Untitled.007-1.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+.wrapper{
+    width: 520px;
+    background-color: rgb(77, 70, 70);
+    color: white;
+
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper p{
+    font-size: 18px;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    padding: 20px 20px 20px 20px ;
+
+}
+.input-box input{
+    width: 80%;
+    height: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 20px 20px 20px 20px ;
+    border: 2px solid white;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+ .wrapper .remember-forgot {
+    display: flex;
+    padding: 20px 20px 20px 20px ;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px; 
+ }
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot a{
+
+    color: blue;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    padding: 20px 20px 20px 20px ;
+    background: blue;
+    border: none;
+    outline: none;
+    
+    cursor: pointer;
+    font-size: 16px;
+
+    font-weight: 600;
+}
+.wrapper .register-link{
+   font-size: 14.5px;
+   text-align: center;
+}
+.register-link p a{
+    color:blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
